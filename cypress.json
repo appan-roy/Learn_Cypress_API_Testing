@@ -1,0 +1,23 @@
+{
+  "projectId": "vh93sd",
+
+  "chromeWebSecurity": false,
+  "defaultCommandTimeout": 10000,
+  "execTimeout": 60000,
+  "pageLoadTimeout": 60000,
+  "requestTimeout": 15000,
+  "responseTimeout": 15000,
+  "failOnStatusCode": false,
+
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "reportFilename": "TestReport",
+    "overwrite": false,
+    "html": true,
+    "json": true,
+    "charts": true
+  },
+  
+  "video": false
+}
